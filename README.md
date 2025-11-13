@@ -68,7 +68,6 @@ RAUM(라움)은 스킨케어에 입문하는 남성들을 위한 AI 기반 맞�
 <!-- 이미지 또는 영상 추가? -->
 
 
----
 
 ## 1-2. 프로젝트 설명 (Project Description)
 
@@ -87,14 +86,12 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 
 - 루틴 최적화: 제품을 선택한 후, AI가 아침/저녁 사용 순서를 최적화하여 루틴을 자동으로 생성하고, 제품 간 시너지 효과 및 충돌 정보를 제공하여 최적의 스킨케어 조합을 안내합니다.
 
----
 
 ## 1-3. 데모 (Demo)
 
 <!-- - 데모 링크: [여기에 링크를 입력]
 - 혹은 데모 GIF 삽입: ![Demo GIF](demo.gif) -->
 
----
 
 ## 1-4. 설치 방법 (Installation)
 
@@ -103,7 +100,6 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 2. 필요한 종속성 설치: `npm install`  
 3. 서버 시작: `npm start` -->
 
----
 
 ## 1-5. 사용 방법 (Usage)
 
@@ -111,7 +107,6 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 - 애플리케이션 실행 후, 로그인 화면에서 사용자 정보를 입력하여 로그인합니다.  
 - [기타 사용 방법 설명] -->
 
----
 
 <br/><br/>
 # 2. 기능 및 설계 (Features & Design)
@@ -122,7 +117,64 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 - 기능 2: [기능 설명]  
 - 기능 3: [기능 설명] -->
 
----
+<table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">기능명</th>
+      <th style="text-align: center;">기능 설명</th>
+      <th style="text-align: center;">중요도</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>간단한 피부 타입 진단</td>
+      <td>사용자가 5~6개의 질문에 답하여 피부 타입을 빠르게 진단할 수 있도록 돕는 기능입니다. AI가 사용자의 기본 피부 타입을 예측합니다.</td>
+      <td>매우 중요</td>
+    </tr>
+    <tr>
+      <td>심층 설문을 통한 개인별 피부 분석</td>
+      <td>회원 가입 후 심층 설문을 통해 구체적인 피부 고민과 생활 습관을 수집하여 개인화된 피부 분석 레포트를 제공합니다.</td>
+      <td>중요</td>
+    </tr>
+    <tr>
+      <td>맞춤형 제품 추천</td>
+      <td>AI가 사용자의 피부 타입과 고민에 맞춰 최적화된 스킨케어 제품을 추천하는 기능입니다. 성분 기반의 추천 알고리즘을 사용합니다.</td>
+      <td>매우 중요</td>
+    </tr>
+    <tr>
+      <td>스킨케어 루틴 생성 및 시너지 분석</td>
+      <td>사용자에게 최적화된 아침/저녁 루틴을 자동으로 생성하고, 제품 간 시너지 효과 및 충돌 정보를 제공하여 효과적인 사용 순서를 안내합니다.</td>
+      <td>매우 중요</td>
+    </tr>
+    <tr>
+      <td>회원가입</td>
+      <td>사용자가 개인 계정을 생성하여 서비스를 이용할 수 있도록 하는 기능입니다. 기본적인 사용자 정보를 입력하고 회원가입을 진행합니다.</td>
+      <td>매우 중요</td>
+    </tr>
+    <tr>
+      <td>로그인</td>
+      <td>회원가입 후, 사용자가 자신의 계정에 로그인하여 개인화된 서비스를 이용할 수 있는 기능입니다.</td>
+      <td>매우 중요</td>
+    </tr>
+    <tr>
+      <td>마이페이지</td>
+      <td>사용자가 자신의 프로필, 피부 타입, 추천 받은 제품, 루틴 등을 확인하고 수정할 수 있는 개인화된 페이지입니다.</td>
+      <td>중요</td>
+    </tr>
+    <tr>
+      <td>비밀번호 찾기</td>
+      <td>사용자가 비밀번호를 잊어버린 경우, 이메일 등을 통해 비밀번호를 재설정할 수 있는 기능입니다.</td>
+      <td>중요</td>
+    </tr>
+    <tr>
+      <td>로그아웃</td>
+      <td>사용자가 자신의 계정에서 로그아웃하여 서비스를 종료할 수 있도록 하는 기능입니다.</td>
+      <td>보통</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 ## 2-2. 와이어프레임 (Wireframes)
 
@@ -215,7 +267,8 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 
 서비스는 AI 기반 분석을 통해 정보를 과도하게 제공하는 대신, 사용자가 직관적이고 실용적인 가이드를 받을 수 있도록 설계되었습니다.
 
----
+
+<br/>
 
 ## 4-2. 문제 정의 (Problem Definition)
 
@@ -223,7 +276,18 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 - **문제의 중요성**: [문제가 중요한 이유]  
 - **기존 해결책**: [기존 해결책의 한계] -->
 
----
+최근 '그루밍족'이라는 용어가 보편화될 만큼, 남성의 외모 관리에 대한 관심이 폭발적으로 증가하고 있습니다. 일상 속 피부 트러블, 면도 후 자극, 피부 톤 개선 등 남성들의 구체적인 스킨케어 니즈(Needs)는 분명하게 존재합니다.
+그러나 현재 시장은 이러한 수요를 제대로 뒷받침하지 못하고 있습니다.
+남성 사용자들은 수많은 제품과 광고성 정보의 홍수 속에서 "정말 나에게 맞는 제품이 무엇인가?"라는 근본적인 어려움을 겪고 있습니다. 특히 스킨케어 입문자일수록 다음과 같은 명확한 문제점(Pain Point)에 직면합니다.
+
+1.	**정보 과부하**: 무엇부터 시작해야 할지 모를 만큼 정보가 너무 많습니다.
+
+2.	**신뢰도 부족**: 대부분의 정보가 광고성이거나 과장되어 신뢰하기 어렵습니다.
+
+3.	**개인화 부재**: 자신의 피부 타입과 라이프스타일에 제품이 맞는지 확인할 방법이 불명확합니다.
+
+
+<br/>
 
 ## 4-3. 서비스 목표 (Service Goals)
 
@@ -244,14 +308,14 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 
 서비스의 사회적 파급효과를 통해, 남성들이 스킨케어를 자연스러운 자기 관리 습관으로 받아들이게 하고, 뷰티 산업의 성장을 견인할 수 있는 기반을 마련합니다.
 
----
+
+<br/>
 
 ## 4-4. 서비스 흐름 (Service Flow)
 
 <!-- **서비스 흐름도**  
 - [서비스의 흐름도 및 사용자가 서비스를 이용하는 과정] -->
 
----
 
 ## 4-5. 기능 우선순위 (Feature Prioritization)
 
@@ -260,7 +324,6 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 - 기능 2: [우선순위 평가]  
 - 기능 3: [우선순위 평가] -->
 
----
 
 <br/><br/>
 # 5. MVP (Minimum Viable Product)
@@ -271,21 +334,18 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 - **목표**: [MVP의 목표와 핵심 가치]  
 - **핵심 기능 선정**: [MVP에 포함될 핵심 기능들] -->
 
----
 
 ## 5-2. MVP 기술 스택 선택 (MVP Tech Stack Selection)
 
 <!-- **MVP 기술 스택**  
 - [MVP에 필요한 최소한의 기술 스택] -->
 
----
 
 ## 5-3. MVP 개선 로드맵 (MVP Improvement Roadmap)
 
 <!-- **MVP 개선 로드맵**  
 - [MVP 개선을 위한 로드맵과 버전업 전략] -->
 
----
 
 <br/><br/>
 # 6. 테스트 및 일정 (Testing & Timeline)
@@ -295,7 +355,6 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 <!-- **테스트 방법**  
 - [테스트 계획 및 방법론] -->
 
----
 
 ## 6-2. 역할 (Authors and Roles)
 
@@ -314,14 +373,13 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 
 </div>
 
----
 
 ## 6-3. 일정 계획 (Timeline and Milestones)
 
 <!-- **일정 계획**  
 - [마일스톤 및 각 단계별 일정] -->
 
----
+
 
 <br/><br/>
 # 7. 기타 (Miscellaneous)
@@ -343,14 +401,12 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
----
 
 ## 7-2. 문의 (Contact)
 
 <!-- **연락처**  
 - [연락처 정보] -->
 
----
 
 ## 7-3. 참고 자료 (References)
 
