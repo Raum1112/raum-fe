@@ -130,6 +130,21 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 - ![Wireframe Image](wireframe.png)  
 - [와이어프레임 설명] -->
 
+### 로그인, 회원가입
+![로그인, 회원가입 페이지](/readme%20_images/wireframe/로그인,%20회원가입.png)
+
+### 간단 설문
+![간단 설문 진행 및 결과 페이지](/readme%20_images/wireframe/간단%20설문%20진행%20및%20결과.png)
+
+### 심층 설문
+![심층 설문 진행 페이지](/readme%20_images/wireframe/심층%20설문%20진행.png)
+![심층 설문 결과 페이지](/readme%20_images/wireframe/심층%20설문%20결과.png)
+
+### 맞춤 제품 추천 및 마이 루틴 편집
+![기타 페이지](/readme%20_images/wireframe/기타%20페이지.png)
+
+
+
 ---
 
 ## 2-3. ERD (Entity Relationship Diagram)
