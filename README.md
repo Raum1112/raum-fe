@@ -174,6 +174,25 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 - **프론트엔드**: [프론트엔드 기술 스택]  
 - **AI**: [AI 기술 스택] -->
 
+### 💻 Backend
+
+| 카테고리 | 기술 스택 | 사용 목적 |
+| :---: | :--- | :--- |
+| **주요 언어** | **Java** (JDK 17) | 안정적인 비즈니스 로직 구현 및 서버 개발 |
+| **프레임워크** | **Spring Boot 3.x** | RESTful API 구축 및 개발 생산성 향상 |
+<!-- | **데이터베이스** | **MySQL** / **Redis** | 영속적 데이터 관리 / 고속 캐싱 및 세션 관리 | -->
+<!-- | **API 통신** | **RESTful API** | 클라이언트와의 표준 통신 규약 채택 | -->
+
+
+### 🎨 Frontend
+
+| 카테고리 | 기술 스택 | 사용 목적 |
+| :---: | :--- | :--- |
+| **프레임워크** | **React Native** | 컴포넌트 기반 iOS와 Android 앱을 위한 네이티브 앱 개발 |
+<!-- | **상태 관리** | **[Redux / Recoil 등]** | 전역 상태 관리 및 효율적인 데이터 흐름 제어 | -->
+<!-- | **스타일링** | **[Styled Components / Tailwind CSS 등]** | 컴포넌트 별 스타일링 및 디자인 시스템 구축 | -->
+<!-- | **배포 환경** | **[Vercel / Netlify 등]** | 빠른 배포 자동화 및 호스팅 | -->
+
 ---
 
 <br/><br/>
@@ -311,6 +330,18 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 
 <!-- **라이센스 종류**  
 - [라이센스 상세 내용] -->
+
+```
+The MIT License (MIT)
+
+Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
 ---
 
