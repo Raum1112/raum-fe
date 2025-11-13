@@ -4,9 +4,9 @@
 
 1-1. [서비스 개요 (Service Overview)](#1-1-서비스-개요-service-overview)  
 1-2. [프로젝트 설명 (Project Description)](#1-2-프로젝트-설명-project-description)  
-1-3. [데모 (Demo)](#1-3-데모-demo)  
+<!-- 1-3. [데모 (Demo)](#1-3-데모-demo)  
 1-4. [설치 방법 (Installation)](#1-4-설치-방법-installation)  
-1-5. [사용 방법 (Usage)](#1-5-사용-방법-usage)
+1-5. [사용 방법 (Usage)](#1-5-사용-방법-usage) -->
 
 
 ### 2. **기능 및 설계 (Features & Design)**
@@ -14,7 +14,7 @@
 2-1. [기능 목록 (Features)](#2-1-기능-목록-features)  
 2-2. [와이어프레임 (Wireframes)](#2-2-와이어프레임-wireframes)  
 2-3. [ERD (Entity Relationship Diagram)](#2-3-erd-entity-relationship-diagram)  
-2-4. [서비스 아키텍처 (Service Architecture)](#2-4-서비스-아키텍처-service-architecture)  
+<!-- 2-4. [서비스 아키텍처 (Service Architecture)](#2-4-서비스-아키텍처-service-architecture)   -->
 
 
 ### 3. **기술 스택 (Tech Stack)**
@@ -26,8 +26,7 @@
 
 4-1. [기획 (Planning)](#4-1-기획-planning)  
 4-2. [문제 정의 (Problem Definition)](#4-2-문제-정의-problem-definition)  
-4-3. [서비스 목표 (Service Goals)](#4-3-서비스-목표-service-goals)  
-4-4. [서비스 흐름 (Service Flow)](#4-4-서비스-흐름-service-flow)  
+4-3. [서비스 목표 (Service Goals)](#4-3-서비스-목표-service-goals)
 
 
 ### 5. **MVP (Minimum Viable Product)**
@@ -37,18 +36,10 @@
 5-3. [MVP 개선 로드맵 (MVP Improvement Roadmap)](#5-3-mvp-개선-로드맵-mvp-improvement-roadmap)
 
 
-### 6. **테스트 및 일정 (Testing & Timeline)**
+### 6. **기타 (Miscellaneous)**
 
-6-1. [테스트 방법 (Testing)](#6-1-테스트-방법-testing)  
-6-2. [역할 (Authors and Roles)](#6-2-역할-authors-and-roles)  
-6-3. [일정 계획 (Timeline and Milestones)](#6-3-일정-계획-timeline-and-milestones)
-
-
-### 7. **기타 (Miscellaneous)**
-
-7-1. [라이센스 (License)](#7-1-라이센스-license)  
-7-2. [문의 (Contact)](#7-2-문의-contact)  
-7-3. [참고 자료 (References)](#7-3-참고-자료-references)
+6-1. [역할 (Authors and Roles)](#6-1-역할-authors-and-roles)  
+6-2. [라이센스 (License)](#7-1-라이센스-license) 
 
 ---
 
@@ -85,26 +76,6 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 
 - 루틴 최적화: 제품을 선택한 후, AI가 아침/저녁 사용 순서를 최적화하여 루틴을 자동으로 생성하고, 제품 간 시너지 효과 및 충돌 정보를 제공하여 최적의 스킨케어 조합을 안내합니다.
 
-
-## 1-3. 데모 (Demo)
-
-<!-- - 데모 링크: [여기에 링크를 입력]
-- 혹은 데모 GIF 삽입: ![Demo GIF](demo.gif) -->
-
-
-## 1-4. 설치 방법 (Installation)
-
-<!-- **설치 방법**  
-1. [설치 방법 설명]
-2. 필요한 종속성 설치: `npm install`  
-3. 서버 시작: `npm start` -->
-
-
-## 1-5. 사용 방법 (Usage)
-
-<!-- **사용 방법**  
-- 애플리케이션 실행 후, 로그인 화면에서 사용자 정보를 입력하여 로그인합니다.  
-- [기타 사용 방법 설명] -->
 
 
 <br/><br/>
@@ -195,9 +166,6 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 ![기타 페이지](/readme%20_images/wireframe/기타%20페이지.png)
 
 
-
----
-
 ## 2-3. ERD (Entity Relationship Diagram)
 
 <!-- **ERD 다이어그램**  
@@ -206,15 +174,14 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 
 ![ERD Diagram](/readme%20_images/ERD.png) 
 
----
 
-## 2-4. 서비스 아키텍처 (Service Architecture)
+
+<!-- ## 2-4. 서비스 아키텍처 (Service Architecture) -->
 
 <!-- **서비스 아키텍처 다이어그램**  
 - ![Architecture Diagram](architecture.png)  
 - [API 구조 및 서비스 흐름 설명] -->
 
----
 
 <br/><br/>
 # 3. 기술 스택 (Tech Stack)
@@ -306,14 +273,6 @@ MVP(최소 기능 제품)를 통해 기본적인 피부 타입 진단, 제품 �
 AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤형 추천과 루틴을 제공하고, 맞춤형 구독 서비스 등 다양한 비즈니스 모델로 확장할 수 있도록 합니다.
 
 서비스의 사회적 파급효과를 통해, 남성들이 스킨케어를 자연스러운 자기 관리 습관으로 받아들이게 하고, 뷰티 산업의 성장을 견인할 수 있는 기반을 마련합니다.
-
-
-<br/>
-
-## 4-4. 서비스 흐름 (Service Flow)
-
-<!-- **서비스 흐름도**  
-- [서비스의 흐름도 및 사용자가 서비스를 이용하는 과정] -->
 
 
 <br/><br/>
@@ -409,14 +368,26 @@ MVP의 주요 목표는 스킨케어 입문자들이 복잡한 스킨케어 정�
 
     사용자 경험을 강화하고, 맞춤형 솔루션을 제공하여 사용자 만족도 증가.
 
+
 <br/><br/>
-# 6. 테스트 및 일정 (Testing & Timeline)
+# 6. 기타 (Miscellaneous)
 
-## 6-1. 테스트 방법 (Testing)
+## 6-1. 라이센스 (License)
 
-<!-- **테스트 방법**  
-- [테스트 계획 및 방법론] -->
+<!-- **라이센스 종류**  
+- [라이센스 상세 내용] -->
 
+```
+The MIT License (MIT)
+
+Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
 ## 6-2. 역할 (Authors and Roles)
 
@@ -434,43 +405,3 @@ MVP의 주요 목표는 스킨케어 입문자들이 복잡한 스킨케어 정�
 <!-- todo: 세부 역할 추가하기 -->
 
 </div>
-
-
-## 6-3. 일정 계획 (Timeline and Milestones)
-
-<!-- **일정 계획**  
-- [마일스톤 및 각 단계별 일정] -->
-
-
-
-<br/><br/>
-# 7. 기타 (Miscellaneous)
-
-## 7-1. 라이센스 (License)
-
-<!-- **라이센스 종류**  
-- [라이센스 상세 내용] -->
-
-```
-The MIT License (MIT)
-
-Copyright (c) <year> <copyright holders>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-
-
-## 7-2. 문의 (Contact)
-
-<!-- **연락처**  
-- [연락처 정보] -->
-
-
-## 7-3. 참고 자료 (References)
-
-<!-- **참고 자료**  
-- [참고한 자료 목록] -->
