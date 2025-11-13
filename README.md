@@ -2,53 +2,53 @@
 
 ### 1. **서비스 개요 (Service Overview)**
 
-1-1. [서비스 개요 (Service Overview)](#서비스-개요-service-overview)  
-1-2. [프로젝트 설명 (Project Description)](#프로젝트-설명-project-description)  
-1-3. [데모 (Demo)](#데모-demo)  
-1-4. [설치 방법 (Installation)](#설치-방법-installation)  
-1-5. [사용 방법 (Usage)](#사용-방법-usage)
+1-1. [서비스 개요 (Service Overview)](#1-1-서비스-개요-service-overview)  
+1-2. [프로젝트 설명 (Project Description)](#1-2-프로젝트-설명-project-description)  
+1-3. [데모 (Demo)](#1-3-데모-demo)  
+1-4. [설치 방법 (Installation)](#1-4-설치-방법-installation)  
+1-5. [사용 방법 (Usage)](#1-5-사용-방법-usage)
 
 
 ### 2. **기능 및 설계 (Features & Design)**
 
-2-1. [기능 목록 (Features)](#기능-목록-features)  
-2-2. [와이어프레임 (Wireframes)](#와이어프레임-wireframes)  
-2-3. [ERD (Entity Relationship Diagram)](#erd-entity-relationship-diagram)  
-2-4. [서비스 아키텍처 (Service Architecture)](#서비스-아키텍처-service-architecture)  
+2-1. [기능 목록 (Features)](#2-1-기능-목록-features)  
+2-2. [와이어프레임 (Wireframes)](#2-2-와이어프레임-wireframes)  
+2-3. [ERD (Entity Relationship Diagram)](#2-3-erd-entity-relationship-diagram)  
+2-4. [서비스 아키텍처 (Service Architecture)](#2-4-서비스-아키텍처-service-architecture)  
 
 
 ### 3. **기술 스택 (Tech Stack)**
 
-3-1. [기술 스택 (Tech Stack)](#기술-스택-tech-stack)  
+3-1. [기술 스택 (Tech Stack)](#3-1-기술-스택-tech-stack)  
 
 
 ### 4. **기획 및 전략 (Planning & Strategy)**
 
-4-1. [기획 (Planning)](#기획-planning)  
-4-2. [문제 정의 (Problem Definition)](#문제-정의-problem-definition)  
-4-3. [서비스 목표 (Service Goals)](#서비스-목표-service-goals)  
-4-4. [서비스 흐름 (Service Flow)](#서비스-흐름-service-flow)  
+4-1. [기획 (Planning)](#4-1-기획-planning)  
+4-2. [문제 정의 (Problem Definition)](#4-2-문제-정의-problem-definition)  
+4-3. [서비스 목표 (Service Goals)](#4-3-서비스-목표-service-goals)  
+4-4. [서비스 흐름 (Service Flow)](#4-4-서비스-흐름-service-flow)  
 
 
 ### 5. **MVP (Minimum Viable Product)**
 
-5-1. [MVP 정의 (MVP Definition)](#mvp-정의-mvp-definition)  
-5-2. [MVP 기술 스택 선택 (MVP Tech Stack Selection)](#mvp-기술-스택-선택-mvp-tech-stack-selection)  
-5-3. [MVP 개선 로드맵 (MVP Improvement Roadmap)](#mvp-개선-로드맵-mvp-improvement-roadmap)
+5-1. [MVP 정의 (MVP Definition)](#5-1-mvp-정의-mvp-definition)  
+5-2. [MVP 기술 스택 선택 (MVP Tech Stack Selection)](#5-2-mvp-기술-스택-선택-mvp-tech-stack-selection)  
+5-3. [MVP 개선 로드맵 (MVP Improvement Roadmap)](#5-3-mvp-개선-로드맵-mvp-improvement-roadmap)
 
 
 ### 6. **테스트 및 일정 (Testing & Timeline)**
 
-6-1. [테스트 방법 (Testing)](#테스트-방법-testing)  
-6-2. [역할 (Authors and Roles)](#역할-authors-and-roles)  
-6-3. [일정 계획 (Timeline and Milestones)](#일정-계획-timeline-and-milestones)
+6-1. [테스트 방법 (Testing)](#6-1-테스트-방법-testing)  
+6-2. [역할 (Authors and Roles)](#6-2-역할-authors-and-roles)  
+6-3. [일정 계획 (Timeline and Milestones)](#6-3-일정-계획-timeline-and-milestones)
 
 
 ### 7. **기타 (Miscellaneous)**
 
-7-1. [라이센스 (License)](#라이센스-license)  
-7-2. [문의 (Contact)](#문의-contact)  
-7-3. [참고 자료 (References)](#참고-자료-references)
+7-1. [라이센스 (License)](#7-1-라이센스-license)  
+7-2. [문의 (Contact)](#7-2-문의-contact)  
+7-3. [참고 자료 (References)](#7-3-참고-자료-references)
 
 ---
 
