@@ -28,7 +28,6 @@
 4-2. [문제 정의 (Problem Definition)](#문제-정의-problem-definition)  
 4-3. [서비스 목표 (Service Goals)](#서비스-목표-service-goals)  
 4-4. [서비스 흐름 (Service Flow)](#서비스-흐름-service-flow)  
-4-5. [기능 우선순위 (Feature Prioritization)](#기능-우선순위-feature-prioritization)
 
 
 ### 5. **MVP (Minimum Viable Product)**
@@ -315,14 +314,6 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 
 <!-- **서비스 흐름도**  
 - [서비스의 흐름도 및 사용자가 서비스를 이용하는 과정] -->
-
-
-## 4-5. 기능 우선순위 (Feature Prioritization)
-
-<!-- **기능 우선순위 평가**  
-- 기능 1: [우선순위 평가]  
-- 기능 2: [우선순위 평가]  
-- 기능 3: [우선순위 평가] -->
 
 
 <br/><br/>
