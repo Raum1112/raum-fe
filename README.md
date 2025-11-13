@@ -283,6 +283,18 @@ AI 기반 추천 시스템을 지속적으로 개선하여 더 정교한 맞춤�
 <!-- **저자 및 기여자**  
 - [기여자 이름 및 역할] -->
 
+<div align="center">
+
+| 🥇 팀장 | 💡 팀원 | 💻 팀원 |
+| :---: | :---: | :---: |
+| [![손수창 깃허브](https://github.com/sonsuchang.png)](https://github.com/sonsuchang) | [![윤승혁 깃허브](https://github.com/SeungHyeokYoon.png)](https://github.com/SeungHyeokYoon) | [![이다빈 깃허브](https://github.com/dabinchiii.png)](https://github.com/dabinchiii) |
+| **[손수창](https://github.com/SeonghyeonKim)** | **[윤승혁](https://github.com/SeungHyeokYoon)** | **[이다빈](https://github.com/dabinchiii)** |
+| `Java, Spring, Python, AWS` | `Java, Spring, AWS` | `React Native` |
+
+<!-- todo: 세부 역할 추가하기 -->
+
+</div>
+
 ---
 
 ## 6-3. 일정 계획 (Timeline and Milestones)
