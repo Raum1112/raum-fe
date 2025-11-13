@@ -138,6 +138,8 @@ RAUM은 남성 입문자들이 스킨케어를 시작하는 데 필요한 맞춤
 - ![ERD Diagram](erd.png)  
 - [ERD 설명] -->
 
+![ERD Diagram](/readme%20_images/ERD.png) 
+
 ---
 
 ## 2-4. 서비스 아키텍처 (Service Architecture)
