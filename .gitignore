@@ -1,0 +1,115 @@
+# ---------------------------
+# React Native 기본
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/
+
+# Metro Bundler
+.expo
+.expo-shared
+.expo/*
+/.expo/*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+*.trace
+
+# ---------------------------
+# Android
+# ---------------------------
+android/.gradle/
+android/.idea/
+android/.settings/
+android/local.properties
+android/gradle.properties
+android/app/build/
+android/build/
+android/.mlmodelc/
+android/.cxx/
+android/app/src/main/assets/*
+android/app/.cxx/
+*.keystore
+*.jks
+
+# Android specific
+*.iml
+*.apk
+*.aar
+*.ap_
+*.dex
+*.class
+
+# Mac Android Studio
+*.DS_Store
+*.swp
+
+# ---------------------------
+# iOS
+# ---------------------------
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Swift PM
+.swiftpm/
+.build/
+
+# Xcode caches
+.DS_Store
+*.xcuserstate
+
+# ---------------------------
+# React Native CLI / Config
+# ---------------------------
+.env
+.env.*
+.env.local
+
+# Hermes
+*.hbc
+*.hprof
+
+# ---------------------------
+# Bundles
+# ---------------------------
+*.bundle
+*.map
+
+# ---------------------------
+# TypeScript / Babel
+# ---------------------------
+*.tsbuildinfo
+.cache/
+.cache-loader/
+babel.config.js
+
+# ---------------------------
+# JetBrains / VS Code
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# Watchman
+# ---------------------------
+.watchmanconfig
+
+# ---------------------------
+# Misc
+# ---------------------------
+Thumbs.db
